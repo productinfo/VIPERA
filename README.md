@@ -38,8 +38,10 @@ eg. {module} -> MyModule
 Just clone or download this repository & run:
 
 ```
-swift run install
+swift run install --with-templates
 ```
+
+You can update the binary only if you drop the`--with-templates` flag.
 
 
 

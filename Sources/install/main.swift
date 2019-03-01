@@ -9,14 +9,22 @@ import Foundation
 import Dir
 import SPM
 
+
+var installTemplates = false
+if CommandLine.arguments.count > 1 {
+    installTemplates = CommandLine.arguments[1] == "--with-templates"
+}
+
 // MARK: - create work dir & default template
 
 let scriptName = "vipera"
 let homeDir = Dir()
 let workDir = try homeDir.add(scriptName, isHidden: true)
-let templatesSource = Dir.current.child("Templates")
 
-try templatesSource.copy(to: workDir.child("Templates"), force: true)
+if installTemplates {
+    let templatesSource = Dir.current.child("Templates")
+    try templatesSource.copy(to: workDir.child("Templates"), force: true)
+}
 
 // MARK: - build & copy executable
 

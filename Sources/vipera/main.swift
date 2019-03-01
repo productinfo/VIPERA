@@ -6,7 +6,7 @@ guard CommandLine.arguments.count > 1 else {
     exit(-1)
 }
 
-let moduleName = CommandLine.arguments[1].capitalized
+let moduleName = CommandLine.arguments[1].capitalizedFirstLetter()
 let scriptName = URL(fileURLWithPath: CommandLine.arguments.first!).lastPathComponent
 var templateName = "Default"
 if CommandLine.arguments.count > 2 {

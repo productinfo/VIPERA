@@ -8,6 +8,12 @@
 import Foundation
 import Dir
 
+extension String {
+    func capitalizedFirstLetter() -> String {
+        return prefix(1).uppercased() + self.dropFirst()
+    }
+}
+
 func getFormattedDate() -> String {
     let now = Date()
     let dateFormatter = DateFormatter()
