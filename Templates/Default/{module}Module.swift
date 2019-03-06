@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-class {module}DefaultBuilder {
+class {module}Module {
 
-    func build() {
+    func buildDefault() -> UIViewController {
         let view = {module}DefaultView()
         let interactor = {module}DefaultInteractor()
         let presenter = {module}DefaultPresenter()
@@ -25,5 +25,8 @@ class {module}DefaultBuilder {
         interactor.presenter = presenter
 
         router.presenter = presenter
+        router.viewController = view
+        
+        return view
     }
 }
