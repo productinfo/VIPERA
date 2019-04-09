@@ -42,6 +42,7 @@ sudo swift run install --with-templates --with-xcode-templates
 ```
 
 You can update the binary only if you drop the`--with-templates` flag.
+
 You can install Xcode templates using `--with-xcode-templates` flag.
 
 
