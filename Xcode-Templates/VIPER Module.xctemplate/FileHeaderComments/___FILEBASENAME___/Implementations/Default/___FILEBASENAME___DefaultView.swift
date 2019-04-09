@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-class ___VARIABLE_SERVICENAME___DefaultView: UIViewController {
+class ___VARIABLE_MODULENAME___DefaultView: UIViewController {
     
-    var presenter: ___VARIABLE_SERVICENAME___Presenter?
+    var presenter: ___VARIABLE_MODULENAME___Presenter?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,6 @@ class ___VARIABLE_SERVICENAME___DefaultView: UIViewController {
     }
 }
 
-extension ___VARIABLE_SERVICENAME___DefaultView: ___VARIABLE_SERVICENAME___View {
+extension ___VARIABLE_MODULENAME___DefaultView: ___VARIABLE_MODULENAME___View {
 
 }

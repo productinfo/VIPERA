@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class ___VARIABLE_SERVICENAME___Module {
+class ___VARIABLE_MODULENAME___Module {
 
     func buildDefault() -> UIViewController {
-        let view = ___VARIABLE_SERVICENAME___DefaultView()
-        let interactor = ___VARIABLE_SERVICENAME___DefaultInteractor()
-        let presenter = ___VARIABLE_SERVICENAME___DefaultPresenter()
-        let router = ___VARIABLE_SERVICENAME___DefaultRouter()
+        let view = ___VARIABLE_MODULENAME___DefaultView()
+        let interactor = ___VARIABLE_MODULENAME___DefaultInteractor()
+        let presenter = ___VARIABLE_MODULENAME___DefaultPresenter()
+        let router = ___VARIABLE_MODULENAME___DefaultRouter()
 
         view.presenter = presenter
 

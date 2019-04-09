@@ -1,12 +1,12 @@
 
 import Foundation
 
-class ___VARIABLE_SERVICENAME___DefaultInteractor {
+class ___VARIABLE_MODULENAME___DefaultInteractor {
 
-    weak var presenter: ___VARIABLE_SERVICENAME___Presenter?
+    weak var presenter: ___VARIABLE_MODULENAME___Presenter?
 }
 
-extension ___VARIABLE_SERVICENAME___DefaultInteractor: ___VARIABLE_SERVICENAME___Interactor {
+extension ___VARIABLE_MODULENAME___DefaultInteractor: ___VARIABLE_MODULENAME___Interactor {
     
     
 }

@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-protocol ___VARIABLE_SERVICENAME___View: class {
+protocol ___VARIABLE_MODULENAME___View: class {
     
-    var presenter: ___VARIABLE_SERVICENAME___Presenter? { get set }
+    var presenter: ___VARIABLE_MODULENAME___Presenter? { get set }
 
 }

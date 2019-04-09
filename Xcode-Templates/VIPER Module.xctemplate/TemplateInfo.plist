@@ -28,7 +28,7 @@
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
-			<string>SERVICENAME</string>
+			<string>MODULENAME</string>
 			<key>Name</key>
 			<string>VIPER module name</string>
 			<key>Required</key>
@@ -38,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_SERVICENAME___</string>
+			<string>___VARIABLE_MODULENAME___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
